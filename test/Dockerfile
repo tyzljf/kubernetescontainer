@@ -1,3 +1,5 @@
 FROM busybox:latest
-wget https://get.helm.sh/helm-v2.14.3-linux-amd64.tar.gz /tmp
+
+curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.5.4 sh -
+
 MAINTAINER tanyouzhang@sina.com
